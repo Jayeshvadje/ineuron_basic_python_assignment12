@@ -1,0 +1,9 @@
+#Python program to find the sum of all items in a dictionary
+#take a dictionary
+dict1 = {'a': 122, 'b':2134, 'c':3032}
+#initilize sum
+sum=0
+#use for loop to cheak the sum of values
+for i in dict1.values():
+    sum=sum+i
+print("sum of a dictionary value is = ", sum)
